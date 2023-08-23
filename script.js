@@ -8,8 +8,7 @@ loginForm.addEventListener('submit', function (e) {
     const email = loginForm.querySelector('input[type="email"]').value;
     const senha = loginForm.querySelector('input[type="password"]').value;
 
-    // Lógica de autenticação (você pode adicionar sua própria lógica aqui)
-    // Exemplo básico apenas para demonstração
+    // Lógica de autenticação 
     if (email === 'usuario@example.com' && senha === 'senha123') {
         alert('Login bem-sucedido!');
     } else {
@@ -25,8 +24,7 @@ cadastroForm.addEventListener('submit', function (e) {
     const senha = cadastroForm.querySelector('input[type="password"]').value;
     const telefone = cadastroForm.querySelector('input[type="tel"]').value;
 
-    // Lógica de armazenamento dos dados (você pode adicionar sua própria lógica aqui)
-    // Exemplo básico apenas para demonstração
+    // Lógica de armazenamento dos dados
     const pessoa = {
         nome: nome,
         email: email,
